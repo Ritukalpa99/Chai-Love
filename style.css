@@ -208,91 +208,10 @@
     color: var(--overlay-color);
 }
 
-.card-main {
-    display: flex;
-    justify-content: space-around;
-    height: 33.33vh;
-}
-
-.card {
-    display: flex;
-    padding: 40px;
-    line-height: 2em;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-.card-1 {
-    background: #ffc93c;
-}
-
-.card-2 {
-    background: #fecea8;
-}
-
-.card-3 {
-    background: #00bbf0;
-}
-
-.card-4 {
-    background: #e0ffcd;
-}
-
-
 .gradient {
     height: 0.25em;
     background: rgb(3, 166, 74);
     background: linear-gradient(90deg, rgba(3, 166, 74, 1) 0%, rgba(15, 194, 192, 1) 35%, rgba(15, 194, 192, 1) 66%, rgba(3, 166, 74, 1) 100%);
-}
-
-
-.skills {
-    background: #e5e5e5;
-
-}
-
-.skill {
-    padding: 2.5em 0;
-    text-align: center;
-    transition: var(--main-Transition);
-}
-
-.skill-icon {
-    font-size: 2.5em;
-    margin-bottom: 0.5em;
-    transition: var(--main-Transition);
-    display: inline-block;
-}
-
-.skill-title {
-    font-size: 0.9rem;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 0.5rem;
-    margin-bottom: 1rem;
-    color: #5dacbd;
-    transition: var(--main-Transition);
-}
-
-.skill-text {
-    max-width: 15rem;
-    margin: 0 auto;
-}
-
-.skill:hover {
-    background: #5dacbd;
-
-}
-
-.skill:hover .skill-title {
-    color: #7dd87d;
-}
-
-.skill:hover .skill-icon {
-    color: #fff;
-    transform: translateY(-5px);
 }
 
 /* About */
@@ -478,28 +397,6 @@ p {
     
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (min-width : 992px) {
-    .about-img,
-    .about-info {
-        float : left;
-        width : 50%;
-        
-    }
-}
-
 @media (max-width: 891px) {
 
     .showcase,
@@ -528,25 +425,5 @@ p {
         display: flex;
         align-items: center;
         justify-content: center;
-    }
-}
-
-/* orginal 950 580 */
-@media (min-width: 950px) {
-    .skills {
-        display: flex;
-        justify-content: space-around;
-    }
-
-    .skill {
-        min-width: calc(100%/4);
-    }
-}
-
-@media (min-width: 576px) and (max-width : 950px) {
-    .skills {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-
     }
 }
