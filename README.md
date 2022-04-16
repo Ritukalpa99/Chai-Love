@@ -1,2 +1,2 @@
 # Chai Love
-[live] (https://chai-love.netlify.app)
+[LIVE](https://chai-love.netlify.app)
